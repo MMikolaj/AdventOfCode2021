@@ -58,6 +58,8 @@ df$inc <- ifelse(df$dif>0, "increase", "decrease")
 length(grep("increase", df$inc))
 
 
+### ANSWER
 
+# [1] 1275
 
 
